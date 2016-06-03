@@ -31,7 +31,7 @@ Please note that although OpenFrameworks is cross-platform, we built this code t
 7. Optionally, add a 1920 x 1080 background image to `bin/data/backgrounds`, labelled `background_menu.jpg`. This will display behind the menu.
 8. If you're using Visual Studio, make sure to select `Release Build`, and compile and run the application.
 
-Once you have a successfully compiled version of the VOD, follow the end user notes for more details on fine-tuning settings and the 
+Once you have a successfully compiled version of the VOD, [follow the end user notes](https://github.com/ACMILabs/mini-vod/blob/master/docs_enduser.md) for more details on fine-tuning settings and getting up and running with some videos.
 
 To distribute the application to a target PC, be sure to bundle in the VC++ runtime DLLs before copying over your `bin` folder to the new PC. Alternately, install the VC++ redistributable packages on the new PC.
 
