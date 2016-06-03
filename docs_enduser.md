@@ -8,18 +8,20 @@ The ACMI Mini VOD is a small program built on OpenFrameworks for running a touch
 
 The exact system requirements haven't yet been defined. You will need a system that can comfortably decode 1920 x 1080 h.264 video, and handle basic OpenGL. It has been tested with the following systems, all running Windows 7 64-bit:
 
-----
-Intel i5-2500K CPU @ 3.30Ghz \
-16gb RAM \
-NVidia GTX 560
-----
-Intel i7-4790S CPU @ 3.20GHz \
-8.00 GB RAM \
-AMD Radeon R7 A265
-----
-Intel i7-4790S CPU @ 3.20GHz \
-8.00 GB RAM \
-Intel HD Graphics 4600
+***
+- Intel i5-2500K CPU @ 3.30Ghz
+- 16gb RAM
+- NVidia GTX 560
+
+***
+- Intel i7-4790S CPU @ 3.20GHz
+- 8.00 GB RAM
+- AMD Radeon R7 A265
+
+***
+- Intel i7-4790S CPU @ 3.20GHz
+- 8.00 GB RAM
+- Intel HD Graphics 4600
 
 ## Getting Started
 
