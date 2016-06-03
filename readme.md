@@ -1,8 +1,10 @@
 # ACMI Mini VOD
 
-This is a simple application built in [OpenFrameworks](http://openframeworks.cc/) for running a touch screen Video on Demand, for use in exhibition spaces, or anywhere a VoD is required!
+This is a simple application built in [OpenFrameworks](http://openframeworks.cc/) for running a touch screen Video on Demand, for use in exhibition spaces, or anywhere a VOD is required!
 
-When the program launches, it trawls its `data/videos` directory looking for MP4 files to play, and corresponding JPG poster images, and text files for descriptions. It works best with 3 to 5 videos, any more and the text on the menu screen will overflow. Future interfaces could easily extend this to scrollbars, pagination or other UI designs to accommodate more videos.
+When the program starts, it trawls its `data/videos` directory looking for MP4 files to play, and corresponding JPG poster images, and text files for descriptions. It then displays a menu screen with a clickable tile for each video, which will then launch the video with a minimal interface (just play / pause, progress bar, and a back button).
+
+The VOD works best with 3 to 5 videos, any more and the text on the menu screen will overflow. Future interfaces could easily extend this to scrollbars, pagination or other UI designs to accommodate more videos.
 
 ## Overview
 
@@ -28,6 +30,8 @@ Please note that although OpenFrameworks is cross-platform, we built this code t
 	- You can make particular words italic by wrapping the word in underscores. This is not quite like Markdown where you just add underscores or asterisks to the beginning and ends of a phrase or sentence. If you want an entire phrase or sentence to be italic, here you will need to wrap each word with underscores individually. This makes it slightly easier to parse the strings.
 7. Optionally, add a 1920 x 1080 background image to `bin/data/backgrounds`, labelled `background_menu.jpg`. This will display behind the menu.
 8. If you're using Visual Studio, make sure to select `Release Build`, and compile and run the application.
+
+Once you have a successfully compiled version of the VOD, follow the end user notes for more details on fine-tuning settings and the 
 
 To distribute the application to a target PC, be sure to bundle in the VC++ runtime DLLs before copying over your `bin` folder to the new PC. Alternately, install the VC++ redistributable packages on the new PC.
 
