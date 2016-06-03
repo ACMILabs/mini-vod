@@ -39,6 +39,10 @@ To distribute the application to a target PC, be sure to bundle in the VC++ runt
 
 This VOD attempts to run with VSync, but on same graphics cards the video may decode without VSync. If you're using Intel Integrated Graphics, follow these steps to force VSync: http://www.intel.com/content/www/us/en/support/graphics-drivers/000005552.html.
 
+## More Info
+
+Read the [ACMI Labs](https://labs.acmi.net.au) blog post covering this project: [Building a simple open source cross platform video player for museums](https://labs.acmi.net.au/building-a-simple-open-source-cross-platform-video-player-for-museums-3a2f993d9b82)
+
 ## Licence
 
 The ACMI Mini VOD code itself is released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
