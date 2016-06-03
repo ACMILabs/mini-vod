@@ -109,8 +109,8 @@ If videos will not play, double check that they have the `.mp4` file extension i
 ### Restore settings.xml
 To restore the player to application default settings, delete the `settings.xml` file, then launch the player. Press `s` to display the stats, and click on the disk icon at the top left of the screen (and top right of the stats panel). This will create a new `settings.xml` file. Note: if the player has been customised for a particular exhibition or installation, this will reset to _Application_ defaults, not to the defaults for the installation. In this case, you will need to copy your settings.xml file from a backup, or recreate the settings.
 
-### Check version number of current build
-While the application is running, press `s` show the stats. In the top-right hand corner of the screen you should see current build number e.g. `ACMI Video on Demand v 0.0.1.0`.
+### Check version number
+While the application is running, press `s` show the stats. In the top-right hand corner of the screen you should see current version number e.g. `ACMI Video on Demand v 0.0.1.0`.
 
 ### Change fonts
 To change fonts, copy the new TTF fonts to the `/fonts/` directory, and update the appropriate parts of the `settings.xml` file. Note that they must be in TTF format, not OTF.
